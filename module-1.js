@@ -91,9 +91,41 @@
 
 //? Task 11
 
+// function calculateTotalPrice(orderedQuantity, pricePerItem) {
+//   const totalPrice = orderedQuantity * pricePerItem;
+//   return totalPrice;
+// }
+
+// calculateTotalPrice(5, 100);
+// calculateTotalPrice(8, 60);
+// calculateTotalPrice(3, 400);
+// calculateTotalPrice(1, 3500);
+// calculateTotalPrice(12, 70);
+
 //? Task 12
+
+function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+  const message = `You ordered droids worth ${
+    orderedQuantity * pricePerDroid + deliveryFee
+  } credits. Delivery (${deliveryFee} credits) is included in total price.`;
+  return message;
+}
+
+console.log(makeOrderMessage(2, 100, 50));
+console.log(makeOrderMessage(4, 300, 100));
+console.log(makeOrderMessage(4, 300, 100));
+console.log(makeOrderMessage(10, 70, 200));
+
 //? Task 13
 //? Task 14
 //? Task 15
 //? Task 16
+//? Task 17
+//? Task 17
+//? Task 17
+//? Task 17
+//? Task 17
+//? Task 17
+//? Task 17
+//? Task 17
 //? Task 17
