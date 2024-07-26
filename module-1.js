@@ -488,26 +488,69 @@
 
 //? Task 33
 
-function formatMessage(message, maxLength) {
-  let result;
-  //   Change code below this line
+// function formatMessage(message, maxLength) {
+//   let result;
 
-  if (message.length <= maxLength) {
-    result = message;
-  } else {
-    result = message.slice(message, maxLength) + "...";
-  }
-  //   / Change code above this line
-  return result;
-}
+//   if (message.length <= maxLength) {
+//     result = message;
+//   } else {
+//     result = message.slice(message, maxLength) + "...";
+//   }
+//   return result;
+// }
 
-console.log(formatMessage("Curabitur ligula sapien", 16));
-console.log(formatMessage("Curabitur ligula sapien", 23));
-console.log(formatMessage("Vestibulum facilisis purus nec", 20));
-console.log(formatMessage("Vestibulum facilisis purus nec", 30));
-console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15));
-console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41));
+// console.log(formatMessage("Curabitur ligula sapien", 16));
+// console.log(formatMessage("Curabitur ligula sapien", 23));
+// console.log(formatMessage("Vestibulum facilisis purus nec", 20));
+// console.log(formatMessage("Vestibulum facilisis purus nec", 30));
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15));
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41));
 
 //? Task 34
+
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase();
+
+//   return normalizedInput;
+// }
+
+// normalizeInput("Hello world");
+// normalizeInput("This ISN'T SpaM");
+// normalizeInput("Big SALE");
+
 //? Task 35
+
+// function checkForName(fullName, name) {
+//   const result = fullName.includes(name);
+//   return result;
+// }
+
+// checkForName("Egor Kolbasov", "Egor");
+// checkForName("Egor Kolbasov", "egor");
+// checkForName("Egor Kolbasov", "egOr");
+// checkForName("Egor Kolbasov", "Zhenya");
+// checkForName("Vadim Nekrasov", "Vadim");
+// checkForName("Vadim Nekrasov", "vadim");
+// checkForName("Vadim Nekrasov", "Dima");
+
 //? Task 36
+
+// function checkForSpam(message) {
+//   let result;
+
+//   message = message.toLowerCase();
+//   if (message.includes("spam") || message.includes("sale")) {
+//     result = true;
+//   } else {
+//     result = false;
+//   }
+//   return result;
+// }
+
+// checkForSpam("Latest technology news");
+// checkForSpam("JavaScript weekly newsletter");
+// checkForSpam("Get best sale offers now!");
+// checkForSpam("Amazing SalE, only tonight!");
+// checkForSpam("Trust me, this is not a spam message");
+// checkForSpam("Get rid of sPaM emails. Our book in on sale!");
+// checkForSpam("[SPAM] How to earn fast money?");
